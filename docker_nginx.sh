@@ -8,3 +8,8 @@ docker ps -a
 
 "*** run the container***"
 docker run -itd -p 8080:80 apache
+
+echo "*** adding docker volume ***"
+docker volume create my_vol
+
+echo "*** run the container using my_vol***"
