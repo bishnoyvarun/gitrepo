@@ -7,7 +7,7 @@ echo "*** check running Containers***"
 docker ps -a
 
 echo "*** run the container***"
-docker run -itd -p 8081:80 bishnoyvarun/apache
+docker run -itd -p 8080:80 bishnoyvarun/apache
 
 echo "*** adding docker volume ***"
 docker volume create my_vol
